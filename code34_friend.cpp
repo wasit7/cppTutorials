@@ -5,29 +5,24 @@ using namespace std;
 class Man{
     private:
         string hand;
-        void isTouch (){
-            hand+="is touched";
-        }
-        friend void friendlyHold(Man);
-        friend void friendlyTouch(Man);
+        void isTouch (){ hand+="is touched"; }
+        friend void hold(Man);
+        friend void touch(Man);
     public:
-        Man(){
-            arm="My hand ";
-        }
+        Man(){ hand="My hand "; }
         
 };
-void friendlyHold(Man jobs){
-    jobs.arm+="is held";
-    cout << jobs.arm << endl;
+void hold(Man jobs){
+    jobs.hand+="is held";
+    cout << jobs.hand << endl;
 }
-void friendlyTouch(Man jobs){
+void touch(Man jobs){
     jobs.isTouch();
-    cout << jobs.arm << endl;
+    cout << jobs.hand << endl;
 }
-
 int main(){
     Man jobs;
-    friendlyKick(jobs);
-    friendlyTouch(jobs);
+    hold(jobs);
+    touch(jobs);
     return 0;
 }
