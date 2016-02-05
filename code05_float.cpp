@@ -14,13 +14,13 @@ int main(){
     cout<<"max is "<<max<<endl;
     printf("max is %x \n\n",*(unsigned int*)&max);
     
-    float mynan=0.0f/0.0f;
-    cout<<"mynan is "<<mynan<<endl;
-    printf("mynan is %x \n\n",*(unsigned int*)&mynan);
+//    float mynan=0.0f/0.0f;
+//    cout<<"mynan is "<<mynan<<endl;
+//    printf("mynan is %x \n\n",*(unsigned int*)&mynan);
     
-    float myinf=1.0f/0.0f;
-    cout<<"myinf is "<<myinf<<endl;
-    printf("myinf is %x \n\n",*(unsigned int*)&myinf);
+//    float myinf=1.0f/0.0f;
+//    cout<<"myinf is "<<myinf<<endl;
+//    printf("myinf is %x \n\n",*(unsigned int*)&myinf);
     
     float myzero=0.0f;
     cout<<"myzero is "<<myzero<<endl;
