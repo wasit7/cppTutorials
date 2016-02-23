@@ -8,8 +8,8 @@ using namespace std;
 class Record{
   public:
     string data[cmax];
-    //ostream& operator<<(ostream& out, const Record& r);
-    //ifstream& operator>>(ifstream& in, const Record& r);
+    int row_num;
+    
 };
 std::ostream& operator<<(ostream& out, const Record& rec) {
     for(int i=0; i<cmax; i++){
@@ -32,8 +32,8 @@ int main(){
     ifstream readfile( "sample_data.csv" );
     ofstream writefile( "out.csv" );
     
-    string line,d;
-    for (int r=0; getline(readfile, line); r<rmax){
+    int r=0;
+    for (string line,d; getline(readfile, line); r++){
         //cout << line << endl;
         istringstream lstream(line);
         for (int c=0; getline(lstream, d, ','); c++){
@@ -41,13 +41,15 @@ int main(){
         }
         cout<<records[r];
     }
+    records[0].row_num=r;
     readfile.close();
     
-    for(int r=0;r<rmax;r++){
+    for(int r=0;r<records[0].row_num;r++){
         for(int c=0;c<cmax;c++){
             writefile<<records[r].data[c]<<',';
         }
         writefile<<endl;
     }
+    writefile.close();
     return 0;
 }
