@@ -18,7 +18,7 @@ OrderDate,Rep,Item,Units,Unit Cost,Total
 09/10/2015,Gill,Pencil,7,1.29,9.03
 10/10/2015,Gill,Binder,46,8.99,413.54
 11/10/2015,Kivell,Binder,50,19.99,999.50
-12/10/2015,Thompson,Binder,57,19.99,1139.43
+12/10/2015,Eric,Binder,57,19.99,1139.43
 13/10/2015,Jones,Pen,64,8.99,575.36
 14/10/2015,Andrews,Pencil,14,1.29,18.06
 15/10/2015,Jardine,Binder,11,4.99,54.89
@@ -32,7 +32,7 @@ OrderDate,Rep,Item,Units,Unit Cost,Total
 23/10/2015,Andrews,Pencil,75,1.99,149.25
 24/10/2015,Howard,Pen,96,4.99,479.04
 25/10/2015,Gill,Pencil,53,1.29,68.37
-26/10/2015,Thompson,Pencil,32,1.99,63.68
+26/10/2015,Eric,Pencil,32,1.99,63.68
 27/10/2015,Gill,Binder,80,8.99,719.20
 28/10/2015,Kivell,Desk,5,125.00,625.00
 29/10/2015,Morgan,Pencil,90,4.99,449.10
