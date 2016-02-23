@@ -44,8 +44,7 @@ public:
     float operator !(){//prefix
         return sqrt(x*x+y*y);
     }
-     
-      ostream& operator<<(ostream& out, const Vec2D& A);
+    friend ostream& operator<<(ostream& out, const Vec2D& A);
 };
 
 ostream& operator<<(ostream& out, const Vec2D& A) {

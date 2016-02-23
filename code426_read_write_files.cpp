@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <string>
 using namespace std;
 
 int main(){
@@ -9,6 +8,7 @@ int main(){
         myfile1<<"Hello World!"<<endl;
         myfile1<<"Class cs112 is awesome!!"<<endl;
     myfile1.close();
+    
     //read file
     ifstream myfile2 ( "myfile.txt" );
     for (string line; getline(myfile2, line); ){
