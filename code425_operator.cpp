@@ -52,9 +52,11 @@ ostream& operator<<(ostream& out, const Vec2D& A) {
 }
 
 int main(){
-    Vec2D A(3.0f, 4.0f),B(2.0f,1.0f),C;
+    Vec2D A(3.0f, 4.0f),B(2.0f,1.0f),C,D;
     cout<< "A = "<<A;
     cout<< "B = "<<B;
-    cout<< "A * 10 + B * 0.5 = "<< A*10.0f + B*0.5f;
+    D=C=A*10.0f + B*0.5f;
+    cout<< "C = "<< C;
+    cout<< "D = "<< D;
     return 0;
 }
