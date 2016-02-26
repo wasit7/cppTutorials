@@ -11,15 +11,12 @@ class Obj{
     }
     void setY(int _y) const{
         y=_y;
-        const int beta=8;
     }
 };
 int main(){
     Obj obj1;
     obj1.setX(5);
     obj1.setY(7);
-    const int alpha=4;
     cout<<"x,y :"<<obj1.x<<","<<obj1.y<<endl;
-    cout<<"alpha: "<<alpha<<endl;
     return 0;
 }

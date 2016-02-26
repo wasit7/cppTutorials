@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void func( int *  p){
+void func( int * const p ){
     int y;
     p=&y;
     *p=4;
