@@ -1,3 +1,6 @@
+หาสรุปเนื้อหาก่อนกลางภาคได้ที่ (cppTutorials)[https://wasit7.gitbooks.io/cpp_tutorial/content/index.html]
+
+
 การบ้าน 17/02/2016 ส่งในห้อง 24/02/2016 
 * เขียนโปรแกรมเพื่อจัดการไฟล์ .csv โดยสามารถทำสิ่งต่อไปนี้
 * อ่านไฟล์ .csv ประกอบด้วย string size 100 rows  6 colums
