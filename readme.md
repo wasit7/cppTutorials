@@ -1,6 +1,6 @@
-หาสรุปเนื้อหา 
+สรุปเนื้อ
 ==
-ก่อนสอบกลางภาคได้ที่ [cppTutorials](https://wasit7.gitbooks.io/cpp_tutorial/content/index.html)
+นักเรียนสามารถหาสรุปเนื้อหาก่อนสอบกลางภาคได้ที่ [cppTutorials](https://wasit7.gitbooks.io/cpp_tutorial/content/index.html)
 
 
 การบ้าน
