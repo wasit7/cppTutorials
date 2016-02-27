@@ -1,4 +1,4 @@
-หาสรุปเนื้อหาก่อนกลางภาคได้ที่ (cppTutorials)[https://wasit7.gitbooks.io/cpp_tutorial/content/index.html]
+หาสรุปเนื้อหาก่อนสอบกลางภาคได้ที่ [cppTutorials](https://wasit7.gitbooks.io/cpp_tutorial/content/index.html)
 
 
 การบ้าน 17/02/2016 ส่งในห้อง 24/02/2016 
