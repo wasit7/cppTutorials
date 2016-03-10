@@ -10,9 +10,12 @@ class Rect{
         }
         int getArea(){ return width*height; }
 };
-
+void func(Rect r){
+    cout<<"in_fuct "<<r.getArea()<<endl;
+}
 int main(){
     Rect myrect(2,3);
     cout<<"myrect.area() is "<<myrect.getArea()<<endl;
+    func(myrect);
     return 0;
 }

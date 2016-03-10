@@ -1,14 +1,22 @@
 #include<iostream>
 using namespace std;
-void func( int *  p){
-    int y;
-    p=&y;
-    *p=4;
+class Robert{
+    public:
+    int id,age;
+    Robert(){
+        age=0;
+        cout<<"creating\n";
+    }
+    ~Robert(){
+        cout<<"sleeping\n";
+    }
+};
+Robert* foo(Robert* mini){
+    cout<<"in_foo\n";
+    mini->age++;
+    return mini;
 }
 int main(){
-    int x;
-    int *p=&x;
-    x=5;//init
-    func(p);
-    cout<<x;
+    Robert mini1,*mini2;
+    mini2=foo(&mini1);
 }
